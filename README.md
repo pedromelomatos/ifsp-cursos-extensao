@@ -1,4 +1,4 @@
-﻿# Cursos de Extensão — IFSP
+﻿# Cursos de Extensão - IFSP
 
 Protótipo front-end funcional para uma nova área pública de Cursos de Extensão do Instituto Federal de São Paulo.
 
