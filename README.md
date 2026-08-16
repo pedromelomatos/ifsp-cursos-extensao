@@ -1,4 +1,4 @@
-﻿# Cursos de Extensão - IFSP
+# Cursos de Extensão - IFSP
 
 Protótipo front-end funcional para uma nova área pública de Cursos de Extensão do Instituto Federal de São Paulo.
 
@@ -38,15 +38,11 @@ npm run build
 
 O projeto usa `base: '/ifsp-cursos-extensao/'` em `vite.config.js` para funcionar corretamente no GitHub Pages.
 
-## Deploy
+## Deploy automático
 
-Uma opção simples é usar o script com `gh-pages`:
+O repositório possui um workflow em `.github/workflows/deploy.yml` que publica automaticamente no GitHub Pages quando houver push na branch `main`.
 
-```bash
-npm run deploy
-```
-
-Também é possível publicar a pasta `dist` por meio de GitHub Actions, caso o repositório seja configurado para isso.
+No GitHub, a origem do Pages deve estar configurada como `GitHub Actions`.
 
 ## Estrutura básica
 
